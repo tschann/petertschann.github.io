@@ -1741,7 +1741,7 @@ function checkLoaded() {
 			console.log("menu loaded");
 			if ( loadProgress < 1 ) {
 				loadProgress = 1;
-				loadingImage.src="images/LoadingScreen-1.gif";
+				loadingImage.src="img/LoadingScreen-1.gif";
 			}
 			loadm = true;
 		}
@@ -1805,7 +1805,7 @@ function checkLoaded() {
 		if ( !load1) {
 			if ( loadProgress < 2 ) {
 				loadProgress = 2;
-				loadingImage.src="images/LoadingScreen-2.gif";
+				loadingImage.src="img/LoadingScreen-2.gif";
 			}
 			console.log("scene 1 loaded");
 			load1 = true;
@@ -1855,7 +1855,7 @@ function checkLoaded() {
 		if ( !load2 ) {
 			if ( loadProgress < 3 ) {
 				loadProgress = 3;
-				loadingImage.src="images/LoadingScreen-3.gif";
+				loadingImage.src="img/LoadingScreen-3.gif";
 			}
 			load2 = true;
 			console.log("scene 2 loaded");
@@ -1911,7 +1911,7 @@ function checkLoaded() {
 		if ( !load3) {
 			if ( loadProgress < 4 ) {
 				loadProgress = 1;
-				loadingImage.src="images/LoadingScreen-4.gif";
+				loadingImage.src="img/LoadingScreen-4.gif";
 			}
 			load3 = true;
 			console.log("scene 3 loaded");
@@ -1923,7 +1923,7 @@ function checkLoaded() {
 	if ( mediaLoaded && load1 && load2 && load3 && loadm ) {
 		if ( loadProgress < 5 ) {
 			loadProgress = 5;
-			loadingImage.src="images/LoadingScreen-5.gif";
+			loadingImage.src="img/LoadingScreen-5.gif";
 		}
 		console.log("fully loaded");
 		return true;
